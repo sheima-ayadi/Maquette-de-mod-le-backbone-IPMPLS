@@ -32,7 +32,7 @@ Les tests ont été effectués avec succès pour valider la connectivité entre 
 ### Vidéo de test
 Une vidéo démontrant le fonctionnement et les tests du réseau est incluse. Vous pouvez la visualiser en téléchargeant et en lisant le fichier localement :
 
-[Vidéo de test du réseau](./videos/project réseau.mp4)
+[Vidéo de test du réseau]([./videos/project réseau.mp4](https://github.com/sheima-ayadi/Maquette-de-mod-le-backbone-IPMPLS/tree/master/videos))
 
 
 ## Rapport du projet
