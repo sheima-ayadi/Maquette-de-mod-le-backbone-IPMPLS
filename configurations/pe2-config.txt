@@ -1,0 +1,15 @@
+! Configuration de PE2
+hostname PE2
+interface Gig0/0
+ ip address 192.168.2.1 255.255.255.0
+ mpls ip
+!
+router ospf 1
+ network 192.168.2.0 0.0.0.255 area 0
+!
+router bgp 65002
+ neighbor 10.10.10.1 remote-as 65001
+!
+mpls ldp router-id Gig0/0 force
+!
+mpls ip

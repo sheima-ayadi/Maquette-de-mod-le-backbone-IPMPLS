@@ -1,0 +1,9 @@
+! Configuration de P2
+hostname P2
+interface Gig0/0
+ ip address 10.10.10.2 255.255.255.252
+ mpls ip
+!
+mpls ldp router-id Gig0/0 force
+!
+mpls ip

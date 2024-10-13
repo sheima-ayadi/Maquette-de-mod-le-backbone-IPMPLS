@@ -1,0 +1,4 @@
+! Configuration du TACACS+
+aaa new-model
+tacacs-server host 192.168.50.1 key mysecret
+aaa authentication login default group tacacs+ local
